@@ -9,7 +9,6 @@
   "author": "Israel",
   "license": "ISC",
  
-  "homepage": "",
   "devDependencies": {
     "node-sass": "^5.0.0"
   }
