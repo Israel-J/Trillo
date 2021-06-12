@@ -1,15 +1,51 @@
 // LOGO 
 .logo {
     height: 3.25rem;
+    margin-left: 3rem;
 }
 
 // SEARCH
 .search {
-    &__input {
+    background-color: orangered;
+    flex: 0 0 40%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__input {
+        font-family: inherit;
+        font-size: inherit;
+        background-color: var(--color-grey-light-2);
+        border: none;
+        color: inherit;
+        padding: .7rem 2rem; // .7rem top and bottom and 2rem left and right
+        border-radius: 100px;
+        width: 90%;
+        transition: all .2s;
+        margin-right: -3.5rem;
+
+        &:focus {
+            outline: none;
+            width: 100%;
+            background-color: var(--color-grey-light-3);
+
+        }
     }
 
     &__button {
+        border: none;
+        background-color: var(--color-grey-light-2);
+
+        &:focus {
+            outline: none;
+           
+
+        }
+
+        &:active {
+            transform: translateY(2px);
+        }
 
     }
 
@@ -23,6 +59,7 @@
 // USER NAVIGATION
 
 .user-nav {
+    background-color: greenyellow;
     &__icon-box {
 
     }
